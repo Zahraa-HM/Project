@@ -7,7 +7,7 @@ with open('myTopSecret.key', 'rb') as file:
 # step 1) read the encrypted data
 
 encryptedData = ''
-with open('encryptedText1.txt', 'rb') as file:
+with open('encryptedText.txt', 'rb') as file:
    encryptedData = file.read()
 
 # step 2) decrypt the data
